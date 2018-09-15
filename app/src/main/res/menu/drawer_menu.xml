@@ -3,25 +3,14 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_news"
+            android:checked="true"
             android:title="@string/nav_news" />
         <item
             android:id="@+id/nav_matches"
             android:title="@string/nav_matches" />
         <item
-            android:id="@+id/nav_liga1"
-            android:title="@string/nav_liga1" />
-        <item
-            android:id="@+id/nav_liga2a"
-            android:title="@string/nav_liga2a" />
-        <item
-            android:id="@+id/nav_liga2b"
-            android:title="@string/nav_liga2b" />
-        <item
-            android:id="@+id/nav_liga3a"
-            android:title="@string/nav_liga3a" />
-        <item
-            android:id="@+id/nav_liga3b"
-            android:title="@string/nav_liga3b" />
+            android:id="@+id/nav_clasamente"
+            android:title="@string/nav_clasamente" />
         <item
             android:id="@+id/nav_cupa"
             android:title="@string/nav_cupa" />

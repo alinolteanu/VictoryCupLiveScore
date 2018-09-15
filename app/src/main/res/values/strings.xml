@@ -1,12 +1,16 @@
 <resources>
     <string name="app_name">VictoryCupLiveScore</string>
-    <string name="nav_news">News</string>
+    <string name="nav_news">Stiri</string>
     <string name="nav_matches">Meciuri</string>
+
     <string name="nav_liga1">Liga1</string>
     <string name="nav_liga2a">Liga2A</string>
     <string name="nav_liga2b">Liga2B</string>
     <string name="nav_liga3a">Liga3A</string>
     <string name="nav_liga3b">Liga3B</string>
+
+
+    <string name="nav_clasamente">Clasamente</string>
     <string name="nav_cupa">Cupa</string>
     <string name="nav_clubs">Cluburi</string>
     <string name="nav_players">Jucatori</string>
