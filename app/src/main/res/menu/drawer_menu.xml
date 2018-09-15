@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:title="@string/nav_news" />
+        <item
+            android:id="@+id/nav_matches"
+            android:title="@string/nav_matches" />
+        <item
+            android:id="@+id/nav_liga1"
+            android:title="@string/nav_liga1" />
+        <item
+            android:id="@+id/nav_liga2a"
+            android:title="@string/nav_liga2a" />
+        <item
+            android:id="@+id/nav_liga2b"
+            android:title="@string/nav_liga2b" />
+        <item
+            android:id="@+id/nav_liga3a"
+            android:title="@string/nav_liga3a" />
+        <item
+            android:id="@+id/nav_liga3b"
+            android:title="@string/nav_liga3b" />
+        <item
+            android:id="@+id/nav_cupa"
+            android:title="@string/nav_cupa" />
+        <item
+            android:id="@+id/nav_clubs"
+            android:title="@string/nav_clubs" />
+        <item
+            android:id="@+id/nav_players"
+            android:title="@string/nav_players" />
+        <item
+            android:id="@+id/nav_settings"
+            android:title="@string/nav_settings" />
+        <item
+            android:id="@+id/nav_sponsors"
+            android:title="@string/nav_sponsors" />
+        <item
+            android:id="@+id/nav_data_privacy"
+            android:title="@string/nav_data_privacy" />
+        <item
+            android:id="@+id/nav_term_cond"
+            android:title="@string/nav_term_cond" />
+    </group>
+</menu>
