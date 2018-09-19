@@ -30,6 +30,7 @@ public class NavigationDrawerActivity extends AppCompatActivity{
         setContentFragment(new NewsFragment());
 
         Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setTitle(R.string.toolbar_nav_news);
         setSupportActionBar(toolbar);
 
         ActionBar actionbar = getSupportActionBar();
@@ -49,14 +50,17 @@ public class NavigationDrawerActivity extends AppCompatActivity{
     }
 
     private void selectItemFromMenu(MenuItem menuItem) {
+        Toolbar toolbar = findViewById(R.id.toolbar);
         switch (menuItem.getItemId()){
             case R.id.nav_news:
                 NewsFragment newsFragment = new NewsFragment();
                 setContentFragment(newsFragment);
+                toolbar.setTitle(R.string.toolbar_nav_news);
                 break;
             case R.id.nav_players:
                 PlayersFragment playersFragment = new PlayersFragment();
                 setContentFragment(playersFragment);
+                toolbar.setTitle(R.string.toolbar_nav_players);
                 break;
         }
     }
@@ -65,7 +69,6 @@ public class NavigationDrawerActivity extends AppCompatActivity{
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.content_frame, fragment);
-        fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
 }
