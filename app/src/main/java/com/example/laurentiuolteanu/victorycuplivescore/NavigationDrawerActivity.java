@@ -12,7 +12,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 public class NavigationDrawerActivity extends AppCompatActivity{
-    public String TAG = NavigationDrawerActivity.class.getName();
+    public static String TAG = NavigationDrawerActivity.class.getName();
     private DrawerLayout mDrawerLayout;
 
     @Override
@@ -67,6 +67,7 @@ public class NavigationDrawerActivity extends AppCompatActivity{
 
     private void setContentFragment(Fragment fragment){
         FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.content_frame, fragment);
         fragmentTransaction.commit();

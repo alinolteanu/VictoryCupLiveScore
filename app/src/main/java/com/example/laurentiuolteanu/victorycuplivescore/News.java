@@ -1,6 +1,8 @@
 package com.example.laurentiuolteanu.victorycuplivescore;
 
-public class News {
+import java.io.Serializable;
+
+public class News implements Serializable{
     String title;
     String content;
     String imageName;
